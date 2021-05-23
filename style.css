@@ -45,14 +45,12 @@
     display: flex;
     height: auto;
     flex-direction: column;
-    border: 1px solid black;
 }
 .subsection-right{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: flex-end;
-    border: 1px solid red;
 }
 .logo{
     width: 80px;
