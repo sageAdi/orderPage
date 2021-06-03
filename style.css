@@ -136,3 +136,25 @@ border-bottom: 0;
 .text-center{
     align-self: center;
 }
+.container-test{
+    border: 12px solid var(--secondary-color);
+    padding: 0.5rem 2rem;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+tbody{
+    padding: 16px;
+}
+td{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid var(--secondary-color);
+}
+.right{
+    text-align: right;
+}
+.center{
+    text-align: center;
+}
