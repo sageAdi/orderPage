@@ -103,10 +103,6 @@ border-bottom: 0;
     padding-left: 30%;
     padding-right: 30%;
 }
-.center{
-    align-items: center;
-    justify-content: center;
-}
 .big{
     font-size: 2rem;
     line-height: 2em;
@@ -140,8 +136,11 @@ border-bottom: 0;
     border: 12px solid #e2e2e2;
     padding: 0.5rem 2rem;
 }
-table{
+.container-test > table{
     width: 100%;
+    border-collapse: collapse;
+}
+table{
     border-collapse: collapse;
 }
 tbody{
@@ -155,6 +154,12 @@ td{
 .right{
     text-align: right;
 }
+.left{
+    text-align: left;
+}
 .center{
     text-align: center;
+}
+.block > *{
+    vertical-align: middle;
 }
